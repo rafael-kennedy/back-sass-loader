@@ -21,6 +21,10 @@
   "homepage": "https://github.com/rafael-kennedy/back-sass-loader#readme",
   "dependencies": {
     "back-sass": "^0.1.1",
-    "loader-utils": "^1.1.0"
+    "loader-utils": "^1.1.0",
+    "node-sass": "^4.5.3"
+  },
+  "peerDependencies": {
+    "node-sass": "^4.5.3"
   }
 }

@@ -1,12 +1,10 @@
 const BackSass = require('back-sass');
 
-const loaderUtils = require("loader-utils");
-const query = loaderUtils.parseQuery(this.query);
-const configKey = query.config || 'backSass'
+const configKey = 'backSass'
 
 module.exports = function (content) {
   var config
-  if (this.config[configKey]) {
+  if (this.config && this.config[configKey]) {
     config = this.config[configKey]
   } else {
     config = {
