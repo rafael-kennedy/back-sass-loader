@@ -1,5 +1,6 @@
 const BackSass = require('back-sass');
 
+const query = loaderUtils.parseQuery(this.query);
 const configKey = query.config || 'backSass'
 
 module.exports = function (content) {

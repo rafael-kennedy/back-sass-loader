@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/rafael-kennedy/back-sass-loader#readme",
   "dependencies": {
-    "back-sass": "^0.1.1"
+    "back-sass": "^0.1.1",
+    "loader-utils": "^1.1.0"
   }
 }
